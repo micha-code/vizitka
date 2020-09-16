@@ -21,11 +21,20 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .vodaisland {
   width: 500px;
 }
 
 .fotka {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
