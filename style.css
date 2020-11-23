@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+/*
+titles, italic
+font-family: 'Exo', sans-serif; 
+
+regular text 
+font-family: 'Montserrat', sans-serif;
+
+alternative title
+font-family: 'Quicksand', sans-serif;*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+h1,
+h2 {
+  font-family: 'Exo', sans-serif;
+  color: lightgrey;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  padding: 10px;
+  color: lightgrey;
+}
+
+.vizitka {
+  border: 2px solid #694a52;
+  margin: 20px;
+}
+
+.imagesPortfolio {
+  width: auto;
+  height: 100px;
+}
+
+/*
+.containerPortfolio {
+  position: relative;
+  width: 50%;
+}
+
+.imagesPortfolio {
+  width: 200px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay1{
+  width: 100%;
+}
+
+.container:hover .overlay2 {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+*/
