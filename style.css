@@ -42,9 +42,32 @@ h3 {
   color: lightgrey;
 }
 
+.GD img {
+  max-height: 250px;
+  width: auto;
+}
+
+div.GD {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container_text {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 .vizitka {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid #694a52;
-  margin: 20px;
+  position: top;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 
 .imagesPortfolio {
